@@ -90,7 +90,8 @@ Open a pull request from your branch to the main branch of the original reposito
 
 **_By following these guidelines, you help maintain a clean and manageable project history._**
 
-## LICENSE
+## License
 
 [MIT LICENSE](LICENSE)
-&copy; 2024 Ryan Gading Abdullah. All rights reserved.
+
+&copy;2022 Ryan Gading Abdullah. All rights reserved.
