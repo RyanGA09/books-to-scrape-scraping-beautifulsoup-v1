@@ -60,7 +60,7 @@ Run the script to start scraping:
    
    ### Note:
    
-   **If you develop using Visual Studio Code (VSCode), PyCharm, or any other external IDE, you don't need to run the jupyter notebook command anymore. Simply open the notebook file (WebScraping.ipynb) directly inside your IDE, then run the code directly from there without the need to open Jupyter Notebook through a browser.**
+   **If you are developing using Visual Studio Code (VSCode), PyCharm, or any other external IDE, you don't have to run the *jupyter notebook* command. Simply open the notebook file (WebScrapingExperiment.ipynb) directly inside your IDE, then run the code directly from there without the need to open Jupyter Notebook through a browser.**
 
 ## License
 
