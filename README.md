@@ -19,7 +19,7 @@ This is a simple Python script to scrape book data from [Books to Scrape](https:
 2. Navigate to the project directory:
 
    ```bash
-   cd book-scraper
+   cd books-to-scrape-scraping-v1
    ```
 
 3. Create a virtual environment:
