@@ -1,6 +1,6 @@
 # Books To Scrape - Scraping: Basic Version (V1)
 
-This is a simple Python script to scrape book data from [Books to Scrape](https://books.toscrape.com/), a website that provides a collection of books. The scraper collects details about the books, including title, price, availability, rating, and image URL. It stores the data into a CSV file.
+This is a simple Python script to scrape book data from [Books to Scrape](https://books.toscrape.com/), a website that provides a collection of books. The scraper collects details about the books, including itles, prices, ratings, availability, and cover image URLs. It stores the data into a CSV file.
 
 ## Features
 
@@ -58,40 +58,8 @@ Run the script to start scraping:
 
    ```
 
-## Contributing
-
-Feel free to fork the repository and submit pull requests for improvements or bug fixes. Please ensure that your contributions adhere to the existing style and coding standards.
-
-Important: When contributing, please create a new branch for your changes instead of pushing directly to the main branch. To do this:
-
-Create a new branch:
-
-```bash
-git checkout -b your-feature-branch
-```
-
-Make your changes and commit them:
-
-```bash
-git add .
-```
-
-```bash
-git commit -m "Add a descriptive message about your changes"
-```
-
-Push the branch to your forked repository:
-
-```bash
-git push -u origin your-feature-branch
-```
-
-Open a pull request from your branch to the main branch of the original repository.
-
-**_By following these guidelines, you help maintain a clean and manageable project history._**
-
 ## License
 
 [MIT LICENSE](LICENSE)
 
-&copy;2022 Ryan Gading Abdullah. All rights reserved.
+&copy;2024 Ryan Gading Abdullah. All rights reserved.
