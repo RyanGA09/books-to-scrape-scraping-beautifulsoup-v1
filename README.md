@@ -99,6 +99,10 @@ Run the script to start scraping:
 - Using Wait Time: There is a time.sleep(1) in the script that pauses 1 second between each request to the server, to avoid overload and give the server time to respond.
 - CSV File: The retrieved data will be saved in a CSV file named books_data.csv, which allows you to view and further analyze the data with spreadsheets such as Excel or Google Sheets.
 
+## Read More
+
+Check out my Article at [Medium]().
+
 ## License
 
 [MIT LICENSE](LICENSE)
