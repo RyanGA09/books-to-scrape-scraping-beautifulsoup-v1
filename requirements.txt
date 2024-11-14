@@ -1,7 +1,6 @@
 beautifulsoup4==4.12.2
 csv==1.0
 requests==2.31.0
-time==0.0
 pandas==2.1.1
 ipykernel==6.25.2
 ipython==8.15.0
