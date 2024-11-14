@@ -101,7 +101,11 @@ Run the script to start scraping:
 
 ## Read More
 
-Check out my Article at [Medium]().
+Check out my article on Medium:
+
+<a href="https://medium.com/@ryangadingabdullah/article-title" target="blank">
+    <img src="https://img.shields.io/badge/Medium-Check%20Out-000000?logo=medium&style=for-the-badge" alt="Check out on Medium" />
+</a>
 
 ## License
 
