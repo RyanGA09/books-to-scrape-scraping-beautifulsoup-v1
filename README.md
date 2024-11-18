@@ -1,5 +1,9 @@
 # Books to Scrape - Scraping: Basic Version (V1)
 
+<div align="center">
+   <img src="images/titles-picture-logo.jpg" alt="Scraping Book Data from Books to Scrape">
+</div>
+
 This is a simple Python script to scrape book data from [Books to Scrape](https://books.toscrape.com/), a website that provides a collection of books. The scraper collects details about the **books, including titles, prices, ratings, availability, and cover image URLs**. It stores the data into a CSV file.
 
 ## Features
@@ -34,9 +38,9 @@ Follow these steps to get the project up and running:
 
    - On Linux/MacOS:
 
-      ```bash
-         source venv/bin/activate # On Linux
-      ```
+     ```bash
+        source venv/bin/activate # On Linux
+     ```
 
    - On Windows:
 
@@ -58,34 +62,34 @@ Run the script to start scraping:
 
 ### 1. On Python:
 
-   Run the script to start scraping book details:
-   
-   ```bash
-      python WebScraping.py
-   ```
+Run the script to start scraping book details:
+
+```bash
+   python WebScraping.py
+```
 
 ### 2. On Notebook:
 
-   You can also run the script interactively via Jupyter Notebook for a more hands-on approach.
-   
-   1. Start Jupyter Notebook:
+You can also run the script interactively via Jupyter Notebook for a more hands-on approach.
 
-      ```bash
-         jupyter notebook
-      ```
+1.  Start Jupyter Notebook:
 
-      This will:
+    ```bash
+       jupyter notebook
+    ```
 
-      - Scrape book details (title, price, rating, etc.) from the catalog.
-      - Save the data to `books_data.csv` in the current directory.
+    This will:
 
-   3. Open `WebScrapingExperiment.ipynb` in the Jupyter interface and run the cells sequentially. This notebook allows for interactive scraping.
+    - Scrape book details (title, price, rating, etc.) from the catalog.
+    - Save the data to `books_data.csv` in the current directory.
 
-      This notebook allows you to run the scraping code in small chunks, which can be helpful for debugging and learning how scraping works step-by-step.
-      
-      **Note:**
-      
-      If you’re using Visual Studio Code (VSCode), PyCharm, or any other external IDE, you can open the Jupyter notebook file (WebScrapingExperiment.ipynb) directly inside your IDE and run the code without opening Jupyter through a browser.
+2.  Open `WebScrapingExperiment.ipynb` in the Jupyter interface and run the cells sequentially. This notebook allows for interactive scraping.
+
+    This notebook allows you to run the scraping code in small chunks, which can be helpful for debugging and learning how scraping works step-by-step.
+
+    **Note:**
+
+    If you’re using Visual Studio Code (VSCode), PyCharm, or any other external IDE, you can open the Jupyter notebook file (WebScrapingExperiment.ipynb) directly inside your IDE and run the code without opening Jupyter through a browser.
 
 ## How it Works
 
