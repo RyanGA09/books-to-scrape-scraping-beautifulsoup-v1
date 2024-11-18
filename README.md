@@ -1,7 +1,7 @@
 # Books to Scrape - Scraping: Basic Version (V1)
 
 <div align="center">
-   <img src="images/titles-picture-logo.jpg" alt="Scraping Book Data from Books to Scrape">
+   <img src="images/titles-picture-logo.png" alt="Scraping Book Data from Books to Scrape">
 </div>
 
 This is a simple Python script to scrape book data from [Books to Scrape](https://books.toscrape.com/), a website that provides a collection of books. The scraper collects details about the **books, including titles, prices, ratings, availability, and cover image URLs**. It stores the data into a CSV file.
