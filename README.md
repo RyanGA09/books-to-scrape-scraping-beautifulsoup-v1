@@ -103,7 +103,7 @@ Run the script to start scraping:
 
 Check out my article on Medium:
 
-<a href="https://medium.com/@ryangadingabdullah/article-title" target="blank">
+<a href="https://medium.com/@ryangadingabdullah/scraping-book-data-from-books-to-scrape-with-python-basic-version-v1-95cf9b8bb590" target="blank">
     <img src="https://img.shields.io/badge/Medium-Article-000000?logo=medium&style=for-the-badge" alt="Article on Medium" />
 </a>
 
