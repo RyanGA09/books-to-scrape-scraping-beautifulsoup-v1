@@ -1,6 +1,6 @@
 # Books to Scrape - Scraping: Basic Version (V1)
 
-This is a simple Python script to scrape book data from [Books to Scrape](https://books.toscrape.com/), a website that provides a collection of books. The scraper collects details about the books, including titles, prices, ratings, availability, and cover image URLs. It stores the data into a CSV file.
+This is a simple Python script to scrape book data from [Books to Scrape](https://books.toscrape.com/), a website that provides a collection of books. The scraper collects details about the **books, including titles, prices, ratings, availability, and cover image URLs**. It stores the data into a CSV file.
 
 ## Features
 
@@ -95,9 +95,9 @@ Run the script to start scraping:
 
 ## Explanation
 
-- Supports Multiple Pages: In V1, this script already supports scraping of multiple pages. You only need to specify the number of pages you want to scrape in the total_pages variable in the script.
-- Using Wait Time: There is a time.sleep(1) in the script that pauses 1 second between each request to the server, to avoid overload and give the server time to respond.
-- CSV File: The retrieved data will be saved in a CSV file named books_data.csv, which allows you to view and further analyze the data with spreadsheets such as Excel or Google Sheets.
+- Supports Multiple Pages: In V1, this script already supports scraping of multiple pages. You only need to specify the number of pages you want to scrape in the `total_pages` variable in the script.
+- Using Wait Time: There is a `time.sleep(1)` in the script that pauses 1 second between each request to the server, to avoid overload and give the server time to respond.
+- CSV File: The retrieved data will be saved in a CSV file named `books_data.csv`, which allows you to view and further analyze the data with spreadsheets such as Excel or Google Sheets.
 
 ## Read More
 
