@@ -3,40 +3,40 @@ from bs4 import BeautifulSoup
 import csv
 import time
 
-# Fungsi untuk scraping data dari setiap halaman
+# Function for scraping data from each page
 def scrape_books_from_page(url):
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Memeriksa apakah permintaan berhasil
+        response.raise_for_status()  # Check if the request was successful
     except requests.exceptions.RequestException as e:
         print(f"Error: {e}")
         return []
 
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Mengambil semua buku
+    # Taking all the books
     books = soup.find_all('article', class_='product_pod')
     book_data = []
 
     for book in books:
-        # Mengambil judul buku
+        # Retrieving book titles
         title = book.h3.a['title']
 
-        # Mengambil harga buku
+        # Taking the book price
         price = book.find('p', class_='price_color').text
 
-        # Mengambil ketersediaan buku
+        # Retrieve book availability
         availability = book.find('p', class_='instock availability').text.strip()
 
-        # Mengambil rating buku
+        # Taking book ratings
         rating_class = book.p['class']
         rating = rating_class[1] if len(rating_class) > 1 else "No rating"
 
-        # Mengambil URL gambar sampul
+        # Retrieve cover image URL
         image_url = book.find('img')['src']
         image_url = 'https://books.toscrape.com/' + image_url.replace('../', '')
 
-        # Menyimpan data buku dalam bentuk dictionary
+        # Store book data in dictionary form
         book_data.append({
             'Title': title,
             'Price': price,
@@ -47,24 +47,24 @@ def scrape_books_from_page(url):
 
     return book_data
 
-# Fungsi untuk scraping dari beberapa halaman
+# Function for scraping from multiple pages
 def scrape_multiple_pages(base_url, total_pages):
     all_books = []
 
     for page in range(1, total_pages + 1):
         if page == 1:
-            url = base_url  # Halaman pertama
+            url = base_url  # First page
         else:
-            url = f"{base_url}catalogue/page-{page}.html"  # Halaman berikutnya
+            url = f"{base_url}catalogue/page-{page}.html"  # Next page
         print(f"Scraping page {page}: {url}")
         books = scrape_books_from_page(url)
         if books:
             all_books.extend(books)
-        time.sleep(1)  # Memberikan jeda untuk menghindari terlalu banyak request
+        time.sleep(1)  # Giving pause to avoid too many requests
 
     return all_books
 
-# Fungsi untuk menyimpan hasil scraping ke file CSV
+# Function to save scraping result to CSV file
 def save_to_csv(data, filename):
     if not data:
         print("No data to save.")
@@ -79,6 +79,6 @@ def save_to_csv(data, filename):
 
 if __name__ == "__main__":
     base_url = 'https://books.toscrape.com/'
-    total_pages = 5  # Ubah ini sesuai dengan jumlah halaman yang ingin di-scrape
+    total_pages = 5  # Change this according to the number of pages you want to scrape
     books_data = scrape_multiple_pages(base_url, total_pages)
     save_to_csv(books_data, 'books_data.csv') 
