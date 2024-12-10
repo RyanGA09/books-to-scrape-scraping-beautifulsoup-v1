@@ -1,7 +1,7 @@
-# Books to Scrape - Scraping: Basic Version (V1)
+# Books to Scrape - Scraping Using BeautifulSoup: Basic Version (V1)
 
 <div align="center">
-   <img src="images/titles-picture-logo.png" alt="Scraping Book Data from Books to Scrape">
+   <img src="images/titles-picture-logo.jpg" alt="Scraping Book Data from Books to Scrape">
 </div>
 
 This is a simple Python script to scrape book data from [Books to Scrape](https://books.toscrape.com/), a website that provides a collection of books. The scraper collects details about the **books, including titles, prices, ratings, availability, and cover image URLs**. It stores the data into a CSV file.
@@ -39,7 +39,7 @@ Follow these steps to get the project up and running:
    - On Linux/MacOS:
 
      ```bash
-      source venv/bin/activate # On Linux
+     source venv/bin/activate # On Linux
      ```
 
    - On Windows:
@@ -107,7 +107,7 @@ You can also run the script interactively via Jupyter Notebook for a more hands-
 
 Check out my article on [Medium](https://medium.com/@ryangadingabdullah/):
 
-<a href="https://medium.com/@ryangadingabdullah/scraping-book-data-from-books-to-scrape-with-python-basic-version-v1-95cf9b8bb590" target="blank">
+<a href="https://medium.com/@ryangadingabdullah/scraping-book-data-from-books-to-scrape-with-python-using-beautifulsoup-basic-version-v1-29eb974a2384" target="blank">
     <img src="https://img.shields.io/badge/Medium-Article-000000?logo=medium&style=for-the-badge" alt="Article on Medium" />
 </a>
 
