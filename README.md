@@ -111,6 +111,12 @@ Check out my article on [Medium](https://medium.com/@ryangadingabdullah/):
     <img src="https://img.shields.io/badge/Medium-Article-000000?logo=medium&style=for-the-badge" alt="Article on Medium" />
 </a>
 
+## Support Me
+
+<a href="https://saweria.co/RyanGA09" target="_blank">
+   <img src="https://img.shields.io/badge/Saweria-Support-orange?logo=saweria&style=for-the-badge" alt="Support on Saweria" />
+</a>
+
 ## License
 
 &copy;2024 Ryan Gading Abdullah. All rights reserved.
