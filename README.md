@@ -19,13 +19,13 @@ Follow these steps to get the project up and running:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/RyanGA09/books-to-scrape-scraping-v1.git
+   git clone https://github.com/RyanGA09/books-to-scrape-scraping-beautifulsoup-v1.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd books-to-scrape-scraping-v1
+   cd books-to-scrape-scraping-beautifulsoup-v1
    ```
 
 3. Create a virtual environment:
@@ -119,6 +119,6 @@ Check out my article on [Medium](https://medium.com/@ryangadingabdullah/):
 
 ## License
 
-&copy;2024 Ryan Gading Abdullah. All rights reserved.
+&copy; 2024 Ryan Gading Abdullah. All rights reserved.
 
 This project is licensed under the MIT License - see the [MIT LICENSE](LICENSE) for details.
