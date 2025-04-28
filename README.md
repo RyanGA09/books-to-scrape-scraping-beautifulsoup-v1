@@ -6,7 +6,7 @@
 
 </br>
 
-[![License: MIT License with Commons Clause](https://img.shields.io/badge/license-MIT%20License%20with%20Commons%20Clause-blue?style=for-the-badge)](LICENSE) [![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?logo=python&style=for-the-badge)](https://www.python.org/) [![Made with Jupyter Notebook](https://img.shields.io/badge/Made%20with-Jupyter%20Notebook-orange?logo=jupyter&style=for-the-badge)](https://jupyter.org/)
+[![License: MIT License](https://img.shields.io/badge/license-MIT%20License-blue?style=for-the-badge)](LICENSE) [![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?logo=python&style=for-the-badge)](https://www.python.org/) [![Made with Jupyter Notebook](https://img.shields.io/badge/Made%20with-Jupyter%20Notebook-orange?logo=jupyter&style=for-the-badge)](https://jupyter.org/)
 
 This is a simple Python script to scrape book data from [Books to Scrape](https://books.toscrape.com/), a website that provides a collection of books. The scraper collects details about the **books, including titles, prices, ratings, availability, and cover image URLs**. It stores the data into a CSV file.
 
@@ -131,9 +131,7 @@ This is a non-commercial project. If you find it useful and would like to suppor
 
 ## 📜 License
 
-This project is licensed under the `MIT License`.
-
-However, it is for **personal, academic, and non-commercial use only**. Any commercial use is prohibited without explicit written permission from the author.
+This project is licensed under the `MIT License`. It is for **personal, academic, and non-commercial use only**. Any commercial use is prohibited without explicit written permission from the author.
 
 See the [LICENSE](LICENSE) file for more details.
 
