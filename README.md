@@ -12,9 +12,9 @@ This is a simple Python script to scrape book data from [Books to Scrape](https:
 
 ## 🚀 Features
 
-- Scrapes book, such as titles, prices, ratings, availability, and cover image URLs.
-- Supports scraping multiple pages.
-- Saves the scraped data to a CSV file (`books_data.csv`).
+- 📖 Scrapes book, such as titles, prices, ratings, availability, and cover image URLs.
+- 📄 Supports scraping multiple pages.
+- 💾 Saves the scraped data to a CSV file (`books_data.csv`).
 
 ## 🛠️ Technologies Used
 
@@ -111,9 +111,9 @@ You can also run the script interactively via Jupyter Notebook for a more hands-
 
 ## 📌 Explanation
 
-- Supports Multiple Pages: In V1, this script already supports scraping of multiple pages. You only need to specify the number of pages you want to scrape in the `total_pages` variable in the script.
-- Using Wait Time: There is a `time.sleep(1)` in the script that pauses 1 second between each request to the server, to avoid overload and give the server time to respond.
-- CSV File: The retrieved data will be saved in a CSV file named `books_data.csv`, which allows you to view and further analyze the data with spreadsheets such as Excel or Google Sheets.
+- 📚 Supports Multiple Pages: In V1, this script already supports scraping of multiple pages. You only need to specify the number of pages you want to scrape in the `total_pages` variable in the script.
+- ⏳ Using Wait Time: There is a `time.sleep(1)` in the script that pauses 1 second between each request to the server, to avoid overload and give the server time to respond.
+- 📊 CSV File: The retrieved data will be saved in a CSV file named `books_data.csv`, which allows you to view and further analyze the data with spreadsheets such as Excel or Google Sheets.
 
 ## 📖 Read More
 
